@@ -1,0 +1,8 @@
+Create Table job(
+jobID INTEGER auto_increment,
+title VARCHAR(40) NOT NULL,
+description VARCHAR(80) NOT NULL,
+workingTime time NOT NULL,
+location VARCHAr(80) NOT NULL,
+salary INTEGER NOT NULL,
+Constraint primary key(jobID);)
